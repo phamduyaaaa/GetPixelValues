@@ -9,7 +9,7 @@ def on_mouse_move(event):
         x, y = int(event.xdata), int(event.ydata) 
         # Get pixel value in your image
         pixel_value = image_data[y, x]
-        print(f'Tọa độ: ({x}, {y}), Giá trị điểm ảnh: {pixel_value}')
+        print(f'Position: ({x}, {y}), Value: {pixel_value}')
 
 # Show
 fig, ax = plt.subplots()
