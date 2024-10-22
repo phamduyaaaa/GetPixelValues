@@ -13,7 +13,7 @@ def on_mouse_move(event):
 
 # Show
 fig, ax = plt.subplots()
-ax.imshow(image_data, cmap='gray')
+ax.imshow(image_data, cmap='jet')
 
 # Conect with on_mouse_move
 fig.canvas.mpl_connect('motion_notify_event', on_mouse_move)
